@@ -1,0 +1,57 @@
+
+#top-bar{
+    background-color: lightgray;
+    padding: 50px;
+    margin-bottom: 0px;
+}
+img{
+    width: 25%;
+}
+.title-bar{
+    display: flex;
+    flex-wrap: wrap
+}
+.header-text{
+    color: black;
+    width: 100%;
+}
+html{
+    height: 100%;
+    margin: 20px;
+    background-color: lightyellow;
+}
+#main-content{
+    color: darkslategrey;
+}
+.subheading{
+    position: relative;
+    left: 25vw;
+}
+
+.page{
+    border: 5px solid grey;
+    padding: 10px;
+}
+.sub-list{
+    margin-left: 50px;
+    list-style: circle;
+    margin-top: 5px;
+}
+.fa{
+    position: relative;
+    margin: 5px;
+}
+a{
+    color: black;
+}
+a:hover{
+    box-shadow: 0 0 20px 0px rgba(30, 30, 170, 0.2);
+    background-color: rgba(30,30,170,0.1);
+    transition: 2s;
+}
+a:visited{
+    color: mediumpurple;
+}
+.project-link{
+    color: black;
+}
